@@ -23,6 +23,19 @@
                     -Editar Autos.<br/>
                     -Eliminar Autos.
                     </p>
+
+                    @foreach ($dataArray as $data)
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item active">Dato1</li>
+                            <li class="list-group-item">Dato 2</li>
+                            <li class="list-group-item">Dato 3</li>
+                            <li class="list-group-item">Dato 4</li>
+                            <li class="list-group-item">Dato 5</li>
+                        </ul>
+                    </div> 
+                    @endforeach
+                    
                 </div>
             </div>
         </div>
